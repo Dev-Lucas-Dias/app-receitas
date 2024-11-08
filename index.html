@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Receitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>App de Receitas</h1>
+        <input type="text" id="searchInput" placeholder="Buscar receita...">
+    </header>
+
+    <div id="recipeList" class="recipe-list">
+        <!-- As receitas serão exibidas aqui -->
+    </div>
+
+    <div id="recipeDetails" class="recipe-details">
+        <button id="closeRecipeDetails">Fechar</button>
+        <h2 id="recipeTitle"></h2>
+        <h3>Ingredientes:</h3>
+        <ul id="ingredientsList"></ul>
+        <h3>Modo de Preparo:</h3>
+        <p id="preparationSteps"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
